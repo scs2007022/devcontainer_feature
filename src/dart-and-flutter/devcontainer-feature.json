@@ -1,0 +1,21 @@
+{
+    "id": "dart-and-flutter",
+    "version": "1.0.0",
+    "name": "Dart and Flutter",
+    "description": "Devcontainer feature for dart (and flutter)",
+    "keywords": [
+        "Dart",
+        "Flutter"
+    ],
+    "installsAfter":[
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "option": {
+        "dart-version":{
+            "type": "string",
+            "description": "dart version to be installed.",
+            "default":
+        }
+    },
+    "privileged": true
+}
