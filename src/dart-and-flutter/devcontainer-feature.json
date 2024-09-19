@@ -14,7 +14,11 @@
         "dart-version":{
             "type": "string",
             "description": "dart version to be installed.",
-            "default":
+            "default": "latest"
+        },
+        "flutter":{
+            "type": "boolean",
+            "default": true
         }
     },
     "privileged": true
