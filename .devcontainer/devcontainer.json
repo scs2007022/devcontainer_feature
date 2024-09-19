@@ -1,3 +1,11 @@
 {
-    "image":"mcr.microsoft.com/devcontainers/universal:2"
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.vscode-github-actions",
+                "mhutchie.git-graph"
+            ]
+        }
+    }
 }
