@@ -1,6 +1,6 @@
 {
     "id": "dart-and-flutter",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "name": "Dart and Flutter",
     "description": "Devcontainer feature for dart (and flutter)",
     "keywords": [
