@@ -11,6 +11,7 @@ else
     sudo apt-get install -y dart=$DART_VERSION
 fi
 if [$FLUTTER]
+then
     git clone https://github.com/flutter/flutter.git -b stable --depth 1 /flutter
     export PATH="/flutter/bin:$PATH"
 fi
