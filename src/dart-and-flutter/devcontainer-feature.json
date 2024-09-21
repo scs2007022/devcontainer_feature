@@ -10,7 +10,7 @@
     "installsAfter":[
         "ghcr.io/devcontainers/features/common-utils"
     ],
-    "option": {
+    "options": {
         "dart-version":{
             "type": "string",
             "description": "dart version to be installed.",
