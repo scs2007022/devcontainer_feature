@@ -16,6 +16,5 @@ if [[ "$FLUTTER" = true ]];
 then
     echo "Installing Flutter SDK"
     git clone https://github.com/flutter/flutter.git -b stable --depth 1 /flutter
-    export PATH="/flutter/bin:$PATH"
 fi
 apt-get clean
