@@ -1,6 +1,6 @@
 {
     "id": "dart-and-flutter",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "Dart and Flutter",
     "description": "Devcontainer feature for dart (and flutter)",
     "keywords": [
@@ -16,7 +16,11 @@
             "description": "dart version to be installed.",
             "default": "latest"
         },
-        "flutter":{
+        "install-flutter":{
+            "type": "boolean",
+            "default": true
+        },
+        "install-google-executable":{
             "type": "boolean",
             "default": true
         }
