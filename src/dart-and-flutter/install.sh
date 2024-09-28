@@ -17,9 +17,4 @@ then
     echo "Installing Flutter SDK"
     git clone https://github.com/flutter/flutter.git -b stable --depth 1 /flutter
 fi
-if [[ "$install-google-executable" = true ]];
-then
-    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-    apt install -y ./google-chrome-stable_current_amd64.deb
-fi
 apt-get clean
