@@ -26,8 +26,8 @@
             ]
         }
     },
-    "containerEnv": {
-        "PATH": "/flutter/bin:${PATH}"
-    },
+    // "containerEnv": {
+    //     "PATH": "/flutter/bin:${PATH}"
+    // },
     "privileged": true
 }
