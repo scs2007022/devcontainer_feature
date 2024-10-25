@@ -7,9 +7,6 @@
         "Dart",
         "Flutter"
     ],
-    "installsAfter":[
-        "ghcr.io/devcontainers/features/common-utils"
-    ],
     "options": {
         "dart-version":{
             "type": "string",
