@@ -1,0 +1,8 @@
+{
+    "dart-and-flutter": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "dart-and-flutter":{}
+        }
+    }
+}
