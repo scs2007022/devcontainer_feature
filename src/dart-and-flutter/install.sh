@@ -17,6 +17,8 @@ if [[ "$INSTALL_FLUTTER" = true ]];
 then
     echo "Installing Flutter SDK"
     git clone https://github.com/flutter/flutter.git -b stable --depth 1 /flutter
+    git config --global --add safe.directory /flutter
+    sudo chmod -R 777 /flutter
     flutter --version
 fi
 sudo apt-get clean
